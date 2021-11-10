@@ -90,6 +90,9 @@ body {
 }
 
 .my-progects-text {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
