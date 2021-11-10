@@ -1,0 +1,245 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* Mine container */
+
+.mine-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: #fff;
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main contant section */
+
+.main-contant-section {
+  padding: 40px 0px 40px 0px;
+}
+
+.second-contant-section {
+  padding: 40px 90px 40px 90px;
+}
+
+.main-contant-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* About me section */
+
+.about-me-section {
+  height: 420px;
+  padding: 44px 90px 0 90px;
+  background-image: linear-gradient(rgba(150, 150, 150, 0.5), rgba(150, 150, 150, 0.5)), url(../img/code.jpg);
+}
+
+.about-me-profession {
+  display: inline-block;
+  background-color: #191617;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.about-me-description {
+  width: 545px;
+  padding: 10px 0 10px 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #303030;
+  color: #fff;
+}
+
+/* My progects section */
+
+.my-progects-section {
+  margin-bottom: 50px;
+}
+
+.my-progects-list {
+  padding: 0 0 0 17px;
+}
+
+.my-progects-item {
+  color: #000;
+  font-weight: 700;
+}
+
+.my-progects-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 5px;
+}
+.my-progects-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-progects-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+
+/* My work expirience section */
+
+.my-work-experience-company-block {
+  margin: 0 15px 0 0;
+}
+
+.my-work-experience-position,
+.my-education-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-position-auxiliary {
+  color: #8b7e6d;
+}
+
+.my-work-experience-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-devider {
+  color: #8b7e6d;
+}
+
+.my-work-experience-duties {
+  padding: 0 0 0 18px;
+}
+
+.my-work-experience-duty {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-work-experience-company {
+  color: #bd3208;
+}
+
+/* My education section */
+
+.my-education-section {
+  padding-top: 25px;
+}
+
+.my-education-position-specialty {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+/* Sidebar section */
+
+.sidebar-section {
+  background-color: #1f1f1f;
+  width: 370px;
+  padding: 40px 0;
+}
+
+img {
+  width: 370px;
+}
+
+.section-of-sidebar {
+  margin: 50px 40px 0 40px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+/* Contacts section */
+
+.contacts-section-tipe {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.contacts-section-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.contacts-section-link:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+/* Skills section */
+
+.skills-list {
+  padding-left: 17px;
+}
+
+.skills-item {
+  color: #bd3208;
+}
+
+.skills-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
