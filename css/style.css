@@ -39,7 +39,7 @@ body {
 .about-me-section {
   height: 534px;
   padding: 55px 115px 0 115px;
-  background-image: linear-gradient(rgba(150, 150, 150, 0.5), rgba(150, 150, 150, 0.5)), url(../img/code.jpg);
+  background-image: linear-gradient(rgba(100, 100, 100, 0.5), rgba(100, 100, 100, 0.5));
   background-size: contain;
   background-position: center;
 }
@@ -71,8 +71,8 @@ body {
   padding: 13px 0 13px 13px;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 33px;
   background-color: #303030;
   color: #fff;
 }
@@ -140,7 +140,8 @@ body {
 }
 
 .my-work-experience-position-auxiliary {
-  color: #8b7e6d;
+  /* color: #8b7e6d; */
+  color: #000;
 }
 
 .my-work-experience-period {
