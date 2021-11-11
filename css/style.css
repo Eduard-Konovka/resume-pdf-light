@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1600px;
-  height: 2263px;
+  height: 2262px;
   background-color: #fff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .my-progects-list {
-  padding: 0 0 0 22px;
+  padding: 0 10px 0 22px;
 }
 
 .my-progects-item {
