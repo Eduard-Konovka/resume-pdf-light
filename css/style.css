@@ -1,6 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
+  width: 1260px;
+  height: 1782px;
 }
 
 /* Mine container */
@@ -8,8 +10,6 @@ body {
 .mine-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1260px;
-  height: 1782px;
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
